@@ -1,0 +1,31 @@
+[{
+	"_id": {
+		"$oid": "67eda9efbae9184de66b140b"
+	},
+	"title": "Reactive Spring",
+	"author": {
+		"name": "Josh",
+		"surname": "Long"
+	}
+},
+{
+	"_id": {
+		"$oid": "67eda9efbae9184de66b140c"
+	},
+	"title": "Spring Boot Up & Running",
+	"author": {
+		"name": "Mark",
+		"surname": "Heckler"
+	}
+},
+{
+	"_id": {
+		"$oid": "67eda9efbae9184de66b140d"
+	},
+	"title": "Hacking with Spring Boot 2.3",
+	"author": {
+		"name": "Greg",
+		"surname": "Turnquist"
+	}
+}]
+

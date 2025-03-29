@@ -1,0 +1,10 @@
+services:
+  mongodb:
+    image: mongo:8.0.6
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./src/main/resources/data:/data/import
+      - ./mongodb:/docker-entrypoint-initdb.d
+    environment:
+      MONGO_INITDB_DATABASE: booksdb
